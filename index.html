@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+        </style>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Indice de massa corporal</h1>
+    <div class="insertData">
+        <label for="number" class="titleInput">Qual o seu Peso?</label>
+        <input type="number"placeholder="Seu peso"id="weightCurrent">
+    </div>
+    <div class="insertData">
+        <label for="number" class="titleInput">Qual sua altura?</label>
+        <input type="number"placeholder="Sua altura?"id="heightCurrent">
+    </div>
+    <button id="button" onclick="calculate()">Calcular</button>
+    <textarea  style="resize: none; " name="result" id="result" cols="30" rows="5"></textarea>
+</div>
+
+
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
