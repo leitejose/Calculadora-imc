@@ -1,7 +1,10 @@
 body{
 display: flex;
-justify-content: center;
-background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+flex-direction: column;
+align-items: center;
+background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 100%, rgba(95,209,249,1) 200.2% );
+width: auto;
+height: 100%;
 }
 h1{
 margin-left: 1em;
@@ -58,3 +61,88 @@ height: 2em;
 ::-webkit-input-placeholder{
 color: wheat;
 }
+Footer{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family:'Sen', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .footer_content{
+    display: flex;
+    flex-direction: column;
+  }
+  .redes_sociais{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;}
+    .redes_sociais img{
+        width: 3em;
+    }
+    .redes_sociais ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin: 0em 0em 0.5em 0em
+    }
+    .redes_sociais li{
+        margin: 0em 1em 0em 0em
+    }
+
+    
+
+@media only screen and (min-width: 390px)
+and (max-width: 769px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% );
+        max-width: 30em;
+        height:30em;
+        margin: 1em;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        color: wheat;
+        border-radius: 0.5em;
+   footer {
+       clear: both;
+       width: 100%;
+    }
+    .logotipo {
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+    .redes {
+        width: 50%;
+        float: right;
+    }
+}
+/*
+@media only screen and (min-width: 769px) {
+   footer {
+       width: 100%;
+       clear: both;
+       margin-bottom: 3%;
+   }
+   .logotipo {
+       font-size: 1em;
+       width: 45%;
+       float: left;
+       text-align: center;
+    }
+    .logotipo img, .redes img {
+        width: 10%;
+    }
+    .redes {
+        width: 45%;
+        float: right;
+        margin-right: 1%;
+        text-align: center;
+    }
+}*/
