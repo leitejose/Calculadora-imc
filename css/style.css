@@ -109,10 +109,37 @@ and (max-width: 769px){
         font-weight: 600;
         color: wheat;
         border-radius: 0.5em;
-   footer {
-       clear: both;
-       width: 100%;
-    }
+        Footer{
+            display: flex;
+            justify-content: center;
+            color: #FFFFFF;
+            font-family:'Sen', sans-serif;
+            font-size: 12px;
+            text-align: center;
+            width: 100%;
+            height: auto;
+          }
+          .footer_content{
+            display: flex;
+            flex-direction: column;
+          }
+          .redes_sociais{
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 0px;}
+            .redes_sociais img{
+                width: 3em;
+            }
+            .redes_sociais ul {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                margin: 0em 0em 0.5em 0em
+            }
+            .redes_sociais li{
+                margin: 0em 1em 0em 0em
+            }
     .logotipo {
         width: 50%;
         float: left;
