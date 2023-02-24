@@ -141,11 +141,6 @@ and (max-width: 769px){
             .redes_sociais li{
                 margin: 0em 1em 0em 0em
             }
-    .logotipo {
-        width: 50%;
-        float: left;
-        text-align: center;
-    }
     .redes {
         width: 50%;
         float: right;
@@ -158,13 +153,8 @@ and (max-width: 769px){
        clear: both;
        margin-bottom: 0.5%;
    }
-   .logotipo {
-       font-size: 1em;
-       width: 45%;
-       float: left;
-       text-align: center;
-    }
-    .logotipo img, .redes img {
+
+    .redes img {
         width: 10%;
     }
     .redes {
