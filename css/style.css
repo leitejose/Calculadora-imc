@@ -109,6 +109,7 @@ and (max-width: 769px){
         font-weight: 600;
         color: wheat;
         border-radius: 0.5em;
+    }
         Footer{
             display: flex;
             justify-content: center;
