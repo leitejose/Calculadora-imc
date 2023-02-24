@@ -76,7 +76,7 @@ Footer{
     flex-direction: column;
   }
   .redes_sociais{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin-top: 0px;}
@@ -154,8 +154,8 @@ and (max-width: 769px){
        margin-bottom: 0.5%;
    }
 
-    .redes img {
-        width: 10%;
+    .redes_sociais img {
+        width: 3em;
     }
     .redes {
         width: 45%;
